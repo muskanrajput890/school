@@ -1,0 +1,270 @@
+/* #b{
+ width:20rem;
+ height: 35rem;
+} */
+    
+  
+  
+  #f{
+    /* padding: 0%;
+    margin: 0%; */
+    background-color: deepskyblue;
+    height: auto;
+    width: auto;
+    font-family: carrington;
+    color: white;
+    }
+    #a{
+   box-shadow: 0 0 15px rgb(126, 183, 226);
+   border-radius: 5px;
+     border-inline-color: rgb(126, 171, 226); 
+     margin: 5px;
+ }
+ 
+
+ .fa-check {
+  color: green;
+  font-weight: bold;
+}
+
+
+.popular-classes{
+  color: rgb(4, 197, 197);
+}
+.frb{
+  color: rgba(255, 243, 8, 0.836);
+}
+.card {
+  width: 100%;
+   border: 1px solid #053896;
+  border-radius: 5px;
+  /* box-shadow: 0 2px 4px rgba(50, 186, 219, 0.1); */
+  margin-bottom: 20px;
+}
+
+.card-body {
+  padding: 10px;
+}
+
+.card-footer {
+  padding: 20px;
+  border-top: 1px solid #ccc;
+}
+ 
+#av {
+  height: 100%;
+  box-shadow: 0 0 15px rgb(126, 183, 226);
+}
+
+
+
+@media (max-width: 768px) {
+  table {
+      display: block;
+      overflow-x: auto;
+      white-space: nowrap;
+  }
+}
+ .footer{
+  background-color: rgba(9, 89, 135, 0.805);
+  height: auto;
+  width: fit-content;
+
+}
+.footer .btn.btn-link{
+  display: block;
+  margin-bottom: 5px;
+  padding: 0;
+  text-align: left;
+  font-size: 16px;
+  font-weight: normal;
+  text-transform: capitalize;
+  transition: .3s;
+  color: white;
+}
+.footer .copyright{
+  padding: 30px 0;
+  font-size: 15px;
+  border-top: 1px solid rgb(54, 167, 237); 
+  color: white;
+}
+.footer .copyright a{
+  color: white;
+} 
+#card3{
+  height: 220px;
+  width: 350px;
+  margin-top:5px;
+  text-align: center;
+}
+
+
+
+#h{
+  background-color: deepskyblue;
+  align-items: center;
+  justify-content: center;
+  font-family: amaze script;
+  height: 420px;
+  color: white;
+  
+}
+#g{
+  justify-content: center;
+  font-size: 90px;
+  padding-top: 7rem;
+  text-align: center;
+}
+
+
+
+/* Base font size */
+#g{
+  font-size: 90px; /* Default font size */
+}
+
+/* Media query for smaller screens */
+@media only screen and (max-width: 768px) {
+  #g {
+      font-size: 60px; /* Adjusted font size for smaller screens */
+  }
+}
+
+/* Media query for even smaller screens */
+@media only screen and (max-width: 480px) {
+  #g {
+      font-size: 35px; /* Further adjusted font size for very small screens */
+  }
+}
+.teal-box {
+  background-color: rgb(11, 141, 184);
+  width: 340px; /* Adjust width as needed */
+  height: 340px; /* Adjust height to match width for a square shape */
+  padding: 40px; /* Add padding for spacing */
+  border-radius: 10px; /* Add border radius for rounded corners */
+  overflow: hidden; /* Ensures the image stays within the box */
+}
+
+#j
+  /* Custom CSS */ {
+    /* Set the width of the input group to 100% */
+}
+
+#k {
+  width: calc(100% - 250px); /* Set the width of the search input to the remaining width */
+  
+}
+/* Custom CSS for Categories */
+.categories {
+  margin-top: 5rem;
+}
+
+.categories h3 {
+  color: #333;
+  margin-bottom: 1.5rem;
+}
+
+.categories ul {
+  padding: 0;
+}
+
+.categories li {
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: space-between; /* Align items and buttons horizontally */
+  align-items: center;
+  position: relative; /* Add relative positioning for the border */
+}
+
+.categories li a {
+  color: #333;
+  text-decoration: none;
+}
+
+/* Style for the short line */
+.categories li::after {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 400px;
+  height: 1px;
+  background-color: #ccc; /* Color of the line */
+}
+
+/* Style for the circular number */
+.circle-number {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px; /* Set the width and height of the circle */
+  height: 30px;
+  border-radius: 30%; /* Make it circular */
+  background-color: #109bc5; /* Background color of the circle */
+  color: #fff; /* Text color */
+  font-size: 14px; /* Font size */
+  margin-right: 100px; /* Add space between circle and text */
+}
+ /* Custom CSS for Recent Post */
+ .Recent {
+  width: 400px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.Recent img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.Recent h5 {
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.Recent small {
+  font-size: 14px;
+}
+
+.Recent .icon {
+  font-size: 18px;
+  margin-right: 5px;
+}
+
+
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.image-container {
+  width: 100%;
+  max-width: 400px; /* Adjust as needed */
+  margin-bottom: 20px;
+  float: left;
+  margin-right: 20px;
+}
+
+.image-container img {
+  width: 100%;
+  height: auto;
+}
+
+.text-container {
+  max-width: 400px; /* Adjust as needed */
+  text-align: justify;
+  overflow: hidden;
+}
+
+.right-text {
+  width: 100%;
+}
+
+.below-text {
+  margin-top: 20px;
+}
+

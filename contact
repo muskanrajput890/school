@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>about</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/asset/css/style.css">
+        
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+<!-- first -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <img src="/asset/img/logo teddy.jpg" style="width: 80px; margin-right: 5px; border-radius: 100%; color: maroon;" />
+    <a class="navbar-logo" href="#"><b>Kindergarten</b></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="#"><b>Home</b><span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#"><b>About</b></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#"><b>Classes</b></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#"><b>Teachers</b></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#"><b>Gallery</b></a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                   data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><b>Pages</b></a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Blog Grid</a>
+                    <a class="dropdown-item" href="#">Blog Details</a>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#"><b>Contact</b></a>
+            </li>
+            <li class="nav-item">
+                <button type="button" class="btn btn-primary rounded-pill"><b>Join Us</b></button>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+
+
+
+
+
+<!-- first -->
+ <!-- second    -->
+
+ <div class="container-fluid" id="f">
+    <h1>Contact Us</h1>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ <!-- second    -->
+
+
+</body>
+</html>
